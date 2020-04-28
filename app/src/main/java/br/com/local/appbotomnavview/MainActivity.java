@@ -6,6 +6,7 @@ import androidx.fragment.app.Fragment;
 
 import android.os.Bundle;
 import android.view.MenuItem;
+import android.widget.Toast;
 
 import com.google.android.material.bottomnavigation.BottomNavigationView;
 
@@ -27,11 +28,12 @@ public class MainActivity extends AppCompatActivity {
         bottomNavigationView.setOnNavigationItemSelectedListener(new BottomNavigationView.OnNavigationItemSelectedListener() {
             @Override
             public boolean onNavigationItemSelected(@NonNull MenuItem menuItem) {
+                //instanciando a classe Fragment
                 Fragment fragment = null;
 
                 switch (menuItem.getItemId()) {
                     case R.id.mHome:
-                        fragment = new Home_Fragment();
+                     fragment = new Home_Fragment();
                         break;
                     case R.id.mSearch:
                         fragment = new Search_Fragment();

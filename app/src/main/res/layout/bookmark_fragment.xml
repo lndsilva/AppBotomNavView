@@ -12,5 +12,11 @@
         android:text="Bookmark"
         android:textColor="#FFF"
         android:textSize="50dp" />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Teste"
+        android:textColor="#FFF"
+        android:textSize="50dp" />
 
 </LinearLayout>
