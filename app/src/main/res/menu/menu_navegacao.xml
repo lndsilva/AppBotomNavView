@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/mFavorites"
+        android:icon="@drawable/ic_baseline_favorite"
+        android:title="Favorites" />
+    <item
+        android:id="@+id/mMusic"
+        android:icon="@drawable/ic_baseline_music"
+        android:title="Music" />
+    <item
+        android:id="@+id/mNews"
+        android:icon="@drawable/ic_baseline_wallpaper"
+        android:title="News" />
+
+</menu>
