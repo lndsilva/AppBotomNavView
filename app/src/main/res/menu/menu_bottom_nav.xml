@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/ic_mobile"
+        android:enabled="true"
+        android:icon="@drawable/ic_baseline_mobile_friendly"
+        android:title="Mobile" />
+    <item
+        android:id="@+id/ic_fav"
+        android:enabled="true"
+        android:icon="@drawable/ic_baseline_favorite"
+        android:title="Favorite" />
+    <item
+        android:id="@+id/ic_location"
+        android:enabled="true"
+        android:icon="@drawable/ic_baseline_add_location"
+        android:title="Location" />
+
+</menu>
